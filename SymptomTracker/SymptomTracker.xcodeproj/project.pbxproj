@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A399B072E1D0EDF00966DA8 /* SymptomTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A399B062E1D0EDF00966DA8 /* SymptomTrackerApp.swift */; };
+		7A399B0B2E1D0EE100966DA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A399B0A2E1D0EE100966DA8 /* Assets.xcassets */; };
+		7A399B0E2E1D0EE100966DA8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A399B0D2E1D0EE100966DA8 /* Preview Assets.xcassets */; };
+		7A399B192E1D0EE100966DA8 /* SymptomTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A399B182E1D0EE100966DA8 /* SymptomTrackerTests.swift */; };
+		7A399B232E1D0EE100966DA8 /* SymptomTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A399B222E1D0EE100966DA8 /* SymptomTrackerUITests.swift */; };
+		7A399B252E1D0EE100966DA8 /* SymptomTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A399B242E1D0EE100966DA8 /* SymptomTrackerUITestsLaunchTests.swift */; };
+		7ADE3A082E2387C000F18E4E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADE3A072E2387C000F18E4E /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A399B152E1D0EE100966DA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A399AFB2E1D0EDE00966DA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A399B022E1D0EDF00966DA8;
+			remoteInfo = SymptomTracker;
+		};
+		7A399B1F2E1D0EE100966DA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A399AFB2E1D0EDE00966DA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A399B022E1D0EDF00966DA8;
+			remoteInfo = SymptomTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7A399B032E1D0EDF00966DA8 /* SymptomTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SymptomTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A399B062E1D0EDF00966DA8 /* SymptomTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymptomTrackerApp.swift; sourceTree = "<group>"; };
+		7A399B0A2E1D0EE100966DA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A399B0D2E1D0EE100966DA8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7A399B0F2E1D0EE100966DA8 /* SymptomTracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SymptomTracker.entitlements; sourceTree = "<group>"; };
+		7A399B142E1D0EE100966DA8 /* SymptomTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SymptomTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A399B182E1D0EE100966DA8 /* SymptomTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymptomTrackerTests.swift; sourceTree = "<group>"; };
+		7A399B1E2E1D0EE100966DA8 /* SymptomTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SymptomTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A399B222E1D0EE100966DA8 /* SymptomTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymptomTrackerUITests.swift; sourceTree = "<group>"; };
+		7A399B242E1D0EE100966DA8 /* SymptomTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymptomTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7ADE3A072E2387C000F18E4E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A399B002E1D0EDF00966DA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A399B112E1D0EE100966DA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A399B1B2E1D0EE100966DA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A399AFA2E1D0EDE00966DA8 = {
+			isa = PBXGroup;
+			children = (
+				7A399B052E1D0EDF00966DA8 /* SymptomTracker */,
+				7A399B172E1D0EE100966DA8 /* SymptomTrackerTests */,
+				7A399B212E1D0EE100966DA8 /* SymptomTrackerUITests */,
+				7A399B042E1D0EDF00966DA8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A399B042E1D0EDF00966DA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A399B032E1D0EDF00966DA8 /* SymptomTracker.app */,
+				7A399B142E1D0EE100966DA8 /* SymptomTrackerTests.xctest */,
+				7A399B1E2E1D0EE100966DA8 /* SymptomTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A399B052E1D0EDF00966DA8 /* SymptomTracker */ = {
+			isa = PBXGroup;
+			children = (
+				7ADE3A072E2387C000F18E4E /* ContentView.swift */,
+				7A399B062E1D0EDF00966DA8 /* SymptomTrackerApp.swift */,
+				7A399B0A2E1D0EE100966DA8 /* Assets.xcassets */,
+				7A399B0F2E1D0EE100966DA8 /* SymptomTracker.entitlements */,
+				7A399B0C2E1D0EE100966DA8 /* Preview Content */,
+			);
+			path = SymptomTracker;
+			sourceTree = "<group>";
+		};
+		7A399B0C2E1D0EE100966DA8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7A399B0D2E1D0EE100966DA8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7A399B172E1D0EE100966DA8 /* SymptomTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				7A399B182E1D0EE100966DA8 /* SymptomTrackerTests.swift */,
+			);
+			path = SymptomTrackerTests;
+			sourceTree = "<group>";
+		};
+		7A399B212E1D0EE100966DA8 /* SymptomTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7A399B222E1D0EE100966DA8 /* SymptomTrackerUITests.swift */,
+				7A399B242E1D0EE100966DA8 /* SymptomTrackerUITestsLaunchTests.swift */,
+			);
+			path = SymptomTrackerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A399B022E1D0EDF00966DA8 /* SymptomTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A399B282E1D0EE100966DA8 /* Build configuration list for PBXNativeTarget "SymptomTracker" */;
+			buildPhases = (
+				7A399AFF2E1D0EDF00966DA8 /* Sources */,
+				7A399B002E1D0EDF00966DA8 /* Frameworks */,
+				7A399B012E1D0EDF00966DA8 /* Resources */,
+				7A399B312E237FD000966DA8 /* Lint and Format */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SymptomTracker;
+			productName = SymptomTracker;
+			productReference = 7A399B032E1D0EDF00966DA8 /* SymptomTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A399B132E1D0EE100966DA8 /* SymptomTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A399B2B2E1D0EE100966DA8 /* Build configuration list for PBXNativeTarget "SymptomTrackerTests" */;
+			buildPhases = (
+				7A399B102E1D0EE100966DA8 /* Sources */,
+				7A399B112E1D0EE100966DA8 /* Frameworks */,
+				7A399B122E1D0EE100966DA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A399B162E1D0EE100966DA8 /* PBXTargetDependency */,
+			);
+			name = SymptomTrackerTests;
+			productName = SymptomTrackerTests;
+			productReference = 7A399B142E1D0EE100966DA8 /* SymptomTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7A399B1D2E1D0EE100966DA8 /* SymptomTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A399B2E2E1D0EE100966DA8 /* Build configuration list for PBXNativeTarget "SymptomTrackerUITests" */;
+			buildPhases = (
+				7A399B1A2E1D0EE100966DA8 /* Sources */,
+				7A399B1B2E1D0EE100966DA8 /* Frameworks */,
+				7A399B1C2E1D0EE100966DA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A399B202E1D0EE100966DA8 /* PBXTargetDependency */,
+			);
+			name = SymptomTrackerUITests;
+			productName = SymptomTrackerUITests;
+			productReference = 7A399B1E2E1D0EE100966DA8 /* SymptomTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A399AFB2E1D0EDE00966DA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					7A399B022E1D0EDF00966DA8 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					7A399B132E1D0EE100966DA8 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 7A399B022E1D0EDF00966DA8;
+					};
+					7A399B1D2E1D0EE100966DA8 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 7A399B022E1D0EDF00966DA8;
+					};
+				};
+			};
+			buildConfigurationList = 7A399AFE2E1D0EDE00966DA8 /* Build configuration list for PBXProject "SymptomTracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A399AFA2E1D0EDE00966DA8;
+			productRefGroup = 7A399B042E1D0EDF00966DA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A399B022E1D0EDF00966DA8 /* SymptomTracker */,
+				7A399B132E1D0EE100966DA8 /* SymptomTrackerTests */,
+				7A399B1D2E1D0EE100966DA8 /* SymptomTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A399B012E1D0EDF00966DA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A399B0E2E1D0EE100966DA8 /* Preview Assets.xcassets in Resources */,
+				7A399B0B2E1D0EE100966DA8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A399B122E1D0EE100966DA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A399B1C2E1D0EE100966DA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7A399B312E237FD000966DA8 /* Lint and Format */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Lint and Format";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then swiftlint\nelse \n    echo \"warning: Swiftlint missing\"\nfi\n\nif which swiftformat >/dev/null; then swiftformat\nelse \n    echo \"warning: Swiftformat missing\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A399AFF2E1D0EDF00966DA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A399B072E1D0EDF00966DA8 /* SymptomTrackerApp.swift in Sources */,
+				7ADE3A082E2387C000F18E4E /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A399B102E1D0EE100966DA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A399B192E1D0EE100966DA8 /* SymptomTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A399B1A2E1D0EE100966DA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A399B232E1D0EE100966DA8 /* SymptomTrackerUITests.swift in Sources */,
+				7A399B252E1D0EE100966DA8 /* SymptomTrackerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A399B162E1D0EE100966DA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A399B022E1D0EDF00966DA8 /* SymptomTracker */;
+			targetProxy = 7A399B152E1D0EE100966DA8 /* PBXContainerItemProxy */;
+		};
+		7A399B202E1D0EE100966DA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A399B022E1D0EDF00966DA8 /* SymptomTracker */;
+			targetProxy = 7A399B1F2E1D0EE100966DA8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7A399B262E1D0EE100966DA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7A399B272E1D0EE100966DA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		7A399B292E1D0EE100966DA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SymptomTracker/SymptomTracker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SymptomTracker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.singingstranger.SymptomTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7A399B2A2E1D0EE100966DA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SymptomTracker/SymptomTracker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SymptomTracker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.singingstranger.SymptomTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		7A399B2C2E1D0EE100966DA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.singingstranger.SymptomTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SymptomTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SymptomTracker";
+			};
+			name = Debug;
+		};
+		7A399B2D2E1D0EE100966DA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.singingstranger.SymptomTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SymptomTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SymptomTracker";
+			};
+			name = Release;
+		};
+		7A399B2F2E1D0EE100966DA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.singingstranger.SymptomTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SymptomTracker;
+			};
+			name = Debug;
+		};
+		7A399B302E1D0EE100966DA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.singingstranger.SymptomTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SymptomTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A399AFE2E1D0EDE00966DA8 /* Build configuration list for PBXProject "SymptomTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A399B262E1D0EE100966DA8 /* Debug */,
+				7A399B272E1D0EE100966DA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A399B282E1D0EE100966DA8 /* Build configuration list for PBXNativeTarget "SymptomTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A399B292E1D0EE100966DA8 /* Debug */,
+				7A399B2A2E1D0EE100966DA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A399B2B2E1D0EE100966DA8 /* Build configuration list for PBXNativeTarget "SymptomTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A399B2C2E1D0EE100966DA8 /* Debug */,
+				7A399B2D2E1D0EE100966DA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A399B2E2E1D0EE100966DA8 /* Build configuration list for PBXNativeTarget "SymptomTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A399B2F2E1D0EE100966DA8 /* Debug */,
+				7A399B302E1D0EE100966DA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A399AFB2E1D0EDE00966DA8 /* Project object */;
+}
